@@ -72,7 +72,7 @@ body * {color:#fff;}
 }
 .main_about_bg .main_wrap .bottom .slogan_title h1 em {
     font-weight:bold;
-    animation:titleMove 3s linear;
+    animation:titleMove 0.5s linear;
 }
 @keyframes titleMove {
     0%{opacity:0;}
