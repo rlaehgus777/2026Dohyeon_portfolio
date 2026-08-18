@@ -1,76 +1,75 @@
 body {width:1920px;min-height:100vh;}
 body * {color:#fff;}
-/* 2행 bg */
-.main_about_bg {
-    background-image:url(../images/bg\ wrap.jpg);
-    width:1920px; height:1800px;
+.every_wrap {
+    background-image:url(../images/bg.jpg);
+    width:1920px; padding:60px 100px;
 }
 /* 1행시작 */
-.main_about_bg .main_wrap {
+.every_wrap .main_wrap {
     width:100%; height:900px;
-    padding:60px 100px;
     position:relative;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap {
+.every_wrap .main_wrap .hero .top .title_nav_wrap {
     display:flex; flex-flow:row nowrap;
     justify-content:space-between;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap h2 {
+.every_wrap .main_wrap .hero .top .title_nav_wrap h2 {
     font-size:24px; font-weight:100;
     margin-bottom:222px;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap .navigation {
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation {
     display:flex; flex-flow:row nowrap;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap .navigation li {
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li {
     width:170px;
     line-height:60px; text-align:center;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap .navigation li *{
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li *{
     letter-spacing:0.05em;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap .navigation li .active {
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active {
     font-size:20px; font-weight:500;
-    background:rgba(255,255,255,0.15); backdrop-filter:blur(10px);
-    border-radius:30px; 
-    box-shadow:0 8px 32px rgba(0,0,0,0.1);
-    border:1px solid rgba(255,255,255,0.2);
-    width:170px; line-height:60px; display:block;
 }
-.main_about_bg .main_wrap .top .title_nav_wrap .navigation li a {
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active .bg_glass {
+    position:relative;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active .bg_glass span {
+    position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li a {
     font-size:20px; font-weight:200;
 }
-.main_about_bg .main_wrap .top .job {
+.every_wrap .main_wrap .hero .top .job {
     display:flex; gap:20px; justify-content: center;
 }
-.main_about_bg .main_wrap .top .job .uiux {
+.every_wrap .main_wrap .hero .top .job .uiux {
     border:1px solid #fff; width:200px; line-height:50px; border-radius:50px;
     text-align:center; font-size:24px; font-weight:400;
 }
-.main_about_bg .main_wrap .top .job .publishing {
+.every_wrap .main_wrap .hero .top .job .publishing {
     border:1px solid #fff; text-align:center; font-size:24px; font-weight:400;
     border-radius:50px; width:250px; line-height:50px;
 }
-.main_about_bg .main_wrap .bottom {
+.every_wrap .main_wrap .hero .bottom {
     display:flex; flex-flow:column nowrap; gap:150px;
 }
-.main_about_bg .main_wrap .bottom .slogan_title {}
-.main_about_bg .main_wrap .bottom .slogan_title .slogan {
+.every_wrap .main_wrap .hero .bottom .slogan_title {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan {
     padding-top:14px; display:flex; gap:14px;
     justify-content: center;
 }
-.main_about_bg .main_wrap .bottom .slogan_title .slogan {
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan {
     margin-bottom:14px;
 }
 .first,.second {font-size:40px; font-weight:50;}
-.main_about_bg .main_wrap .bottom .slogan_title .slogan .first {}
-.main_about_bg .main_wrap .bottom .slogan_title .slogan .first em {font-weight:bold;}
-.main_about_bg .main_wrap .bottom .slogan_title .slogan .second  {}
-.main_about_bg .main_wrap .bottom .slogan_title .slogan .second em {font-weight:bold;}
-.main_about_bg .main_wrap .bottom .slogan_title h1 {
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .first {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .first em {font-weight:bold;}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .second  {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .second em {font-weight:bold;}
+.every_wrap .main_wrap .hero .bottom .slogan_title h1 {
     font-size:90px; font-weight:300; text-align:center;
 }
-.main_about_bg .main_wrap .bottom .slogan_title h1 em {
+.every_wrap .main_wrap .hero .bottom .slogan_title h1 em {
     font-weight:bold;
     animation:titleMove 0.5s linear;
 }
@@ -78,35 +77,36 @@ body * {color:#fff;}
     0%{opacity:0;}
     100%{opacity:1;}
 }
-.main_about_bg .main_wrap .bottom .interaction {
+.every_wrap .main_wrap .hero .bottom .interaction {
     display:flex; flex-flow:column nowrap; align-items:center; gap:12px;
 }
-.main_about_bg .main_wrap .bottom .interaction .next a {
+.every_wrap .main_wrap .hero .bottom .interaction .next a {
     font-size:24px; font-weight:100; color:#888;
 }
-.main_about_bg .main_wrap .bottom .interaction .image img {
+.every_wrap .main_wrap .hero .bottom .interaction .image img {
     animation:mousemove 0.5s linear infinite alternate;
 }
 @keyframes mousemove {
     0%{transform:translateY(0)}
     100%{transform:translateY(-10px)}
 }
-.main_about_bg .main_wrap .bottom .interaction .qr_wrap{
-    position:absolute; left:30px; bottom:0;
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap{
+    position:absolute; left:-65px; bottom:70px;
 }
-.main_about_bg .main_wrap .bottom .interaction .qr_wrap .contact_ani {
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .contact_ani {
     width:230px; height:230px;
     animation:turnContact 10s linear infinite;
+    position:relative;
 }
-.main_about_bg .main_wrap .bottom .interaction .qr_wrap .contact_ani img {
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .contact_ani img {
     width:100%; transform-origin:center;
 }
-.main_about_bg .main_wrap .bottom .interaction .qr_wrap .kakao {
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao {
     position:absolute; top:50%; left:50%;
     transform:translate(-50%, -50%);
-    width:100px; height:100px;
+    width:90px; height:90px;
 }
-.main_about_bg .main_wrap .bottom .interaction .qr_wrap .kakao img {
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao img {
     width:100%;
 }
 @keyframes turnContact {
