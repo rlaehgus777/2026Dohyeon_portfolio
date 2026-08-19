@@ -1,0 +1,142 @@
+* {box-sizing:border-box;}
+body {
+    max-width:1920px; height:900px;
+}
+body * {color:#fff;}
+.every_wrap {
+    background-image:url(../images/bg.jpg);
+    width:100%; padding:60px 100px;
+}
+/* 1행시작 */
+.every_wrap .main_wrap {
+    width:100%; height:900px;
+    position:relative;
+}
+.every_wrap .main_wrap .hero {
+    width:100%; height:100%;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap {
+    display:flex; flex-flow:row nowrap;
+    justify-content:space-between;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap h2 {
+    font-size:24px; font-weight:100;
+    margin-bottom:222px;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation {
+    display:flex; flex-flow:row nowrap;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li {
+    width:170px;
+    line-height:60px; text-align:center;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li *{
+    letter-spacing:0.05em;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active {
+    font-size:20px; font-weight:500;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active .bg_glass {
+    position:relative;
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li .active .bg_glass span {
+    position:absolute; left:50%; top:50%; transform:translate(-50%, -50%);
+}
+.every_wrap .main_wrap .hero .top .title_nav_wrap .navigation li a {
+    font-size:20px; font-weight:200;
+}
+.every_wrap .main_wrap .hero .top .job {
+    display:flex; gap:20px; justify-content: center;
+}
+.every_wrap .main_wrap .hero .top .job .uiux {
+    border:1px solid #fff; width:200px; line-height:50px; border-radius:50px;
+    text-align:center; font-size:24px; font-weight:400;
+}
+.every_wrap .main_wrap .hero .top .job .publishing {
+    border:1px solid #fff; text-align:center; font-size:24px; font-weight:400;
+    border-radius:50px; width:250px; line-height:50px;
+}
+.every_wrap .main_wrap .hero .bottom {
+    display:flex; flex-flow:column nowrap; gap:150px;
+}
+.every_wrap .main_wrap .hero .bottom .slogan_title {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan {
+    padding-top:14px; display:flex; gap:14px;
+    justify-content: center;
+}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan {
+    margin-bottom:14px;
+}
+.first,.second {font-size:40px; font-weight:50;}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .first {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .first em {font-weight:bold;}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .second  {}
+.every_wrap .main_wrap .hero .bottom .slogan_title .slogan .second em {font-weight:bold;}
+.every_wrap .main_wrap .hero .bottom .slogan_title h1 {
+    font-size:90px; font-weight:300; text-align:center;
+}
+.every_wrap .main_wrap .hero .bottom .slogan_title h1 em {
+    font-weight:bold;
+    animation:titleMove 0.5s linear;
+}
+@keyframes titleMove {
+    0%{opacity:0;}
+    100%{opacity:1;}
+}
+.every_wrap .main_wrap .hero .bottom .interaction {
+    display:flex; flex-flow:column nowrap; align-items:center; gap:12px;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .next a {
+    font-size:24px; font-weight:100; color:#888;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .image img {
+    animation:mousemove 0.5s linear infinite alternate;
+}
+@keyframes mousemove {
+    0%{transform:translateY(0)}
+    100%{transform:translateY(-10px)}
+}
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap{
+    position:absolute; left:-65px; bottom:70px;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .contact_ani {
+    width:230px; height:230px;
+    animation:turnContact 10s linear infinite;
+    position:relative;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .contact_ani img {
+    width:100%; transform-origin:center;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao {
+    position:absolute; top:50%; left:50%;
+    transform:translate(-50%, -50%);
+    width:90px; height:90px;
+}
+.every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao img {
+    width:100%;
+}
+@keyframes turnContact {
+    0%{transform:rotate(0);}
+    100%{transform:rotate(360deg);}
+}
+/* 1행 종료 */
+/* 2행 about me 시작 */
+.about {
+    width:100%; height:100vh;
+    padding:60px 0;
+}
+.about h3 {
+    font-family:'Noto-Serif', serif; color:#fff;
+    font-size:40px; font-weight:800;
+}
+.about .content_wrap {}
+.about .content_wrap .my_info {}
+.about .content_wrap .my_info .image {
+    width:273px; height:351px; overflow:hidden;
+    border-radius:20px 20px 0 0;
+}
+.about .content_wrap .my_info .image img {width:100%;}
+.about .content_wrap .my_info .info_wrap {}
+.about .content_wrap .my_info .info_wrap * {
+    display:flex;
+}
