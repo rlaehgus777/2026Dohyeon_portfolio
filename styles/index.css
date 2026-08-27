@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
 * {box-sizing:border-box;}
 body {
     max-width:1920px; height:900px;
 }
 body * {color:#fff;}
 .every_wrap {
-    background-image:url(../images/bg.jpg);
+    background-image:url(../images/pf.bg.jpg);
     width:100%; padding:60px 100px;
 }
 /* 1행시작 */
@@ -110,7 +111,7 @@ body * {color:#fff;}
 .every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao {
     position:absolute; top:50%; left:50%;
     transform:translate(-50%, -50%);
-    width:90px; height:90px;
+    width:120px; height:120px;
 }
 .every_wrap .main_wrap .hero .bottom .interaction .qr_wrap .kakao img {
     width:100%;
@@ -126,17 +127,125 @@ body * {color:#fff;}
     padding:60px 0;
 }
 .about h3 {
-    font-family:'Noto-Serif', serif; color:#fff;
-    font-size:40px; font-weight:800;
+    font-family:'Abhaya Libre',serif; color:#fff;
+    font-size:40px; font-weight:400; /* background-color:aqua; */
+    margin-bottom:129px;
 }
-.about .content_wrap {}
-.about .content_wrap .my_info {}
+.about .content_wrap {
+    display:flex; gap:152px;
+}
+.about .content_wrap .my_info {position:relative;}
 .about .content_wrap .my_info .image {
     width:273px; height:351px; overflow:hidden;
-    border-radius:20px 20px 0 0;
+    border-radius:20px 20px 0 0; margin-bottom:20px;
 }
+.about .content_wrap .my_info .tape {
+    width:100px; transform:translate(92px,-395px);
+}
+.about .content_wrap .my_info .tape img {width:100%;}
 .about .content_wrap .my_info .image img {width:100%;}
-.about .content_wrap .my_info .info_wrap {}
-.about .content_wrap .my_info .info_wrap * {
+.about .content_wrap .my_info .info_wrap {
+    display:flex; flex-flow:column nowrap; gap:20px;
+}
+.about .content_wrap .my_info .info_wrap .name {
     display:flex;
+}
+.about .content_wrap .my_info .info_wrap .name p em {
+    font-size:14px; margin-left:10px;
+}
+.about .content_wrap .my_info .info_wrap .name p:nth-child(1) {}
+.about .content_wrap .my_info .info_wrap .birthday  {
+    display:flex;
+}
+.about .content_wrap .my_info .info_wrap .birthday p {}
+.about .content_wrap .my_info .info_wrap .phonenumber {
+    display:flex;
+}
+.about .content_wrap .my_info .info_wrap .phonenumber p {}
+.about .content_wrap .my_info .info_wrap .email  {
+    display:flex;
+}
+.about .content_wrap .my_info .info_wrap .email p {}
+.about .content_wrap .my_info .info_wrap .name p:nth-child(1),.about .content_wrap .my_info .info_wrap .birthday p:nth-child(1),
+.about .content_wrap .my_info .info_wrap .phonenumber p:nth-child(1),.about .content_wrap .my_info .info_wrap .email p:nth-child(1){
+    font-size:20px; color:#888; font-weight:600; width:80px;
+}
+.about .content_wrap .my_info .info_wrap .name p:nth-child(2),.about .content_wrap .my_info .info_wrap .birthday p:nth-child(2),
+.about .content_wrap .my_info .info_wrap .phonenumber p:nth-child(2),.about .content_wrap .my_info .info_wrap .email p:nth-child(2){
+    font-size:18px; font-weight:600;
+}
+/* ------------------------------------김도현 정보 끝 */
+/* --------------커리어 정보 시작 */
+/* 라이센스 부분 */
+.about .content_wrap .my_info1 {}
+.about .content_wrap .my_info1 .lisence {margin-bottom:40px;}
+.about .content_wrap .my_info1 .lisence .title {margin-bottom:20px;}
+.about .content_wrap .my_info1 .lisence .title img{margin-right:10px;}
+.about .content_wrap .my_info1 .lisence .title span{}
+.about .content_wrap .my_info1 .lisence .lisence_sum1 {
+    display:flex; flex-flow:row nowrap; gap:10px;
+}
+.about .content_wrap .my_info1 .lisence .lisence_sum1 .month {
+    margin-bottom:25px;
+}
+.about .content_wrap .my_info1 .lisence .lisence_sum1 .month, .summary {
+    font-size:20px; font-family:pretendard, sans-serif; font-weight:200;
+}
+.about .content_wrap .my_info1 .lisence .lisence_sum1 .summary{}
+.about .content_wrap .my_info1 .lisence .lisence_sum2 {
+    display:flex; flex-flow:row nowrap; gap:10px;
+}
+.about .content_wrap .my_info1 .lisence .lisence_sum2 .month, .summary {
+    font-size:20px; font-family:pretendard, sans-serif; font-weight:200;
+}
+.about .content_wrap .my_info1 .lisence .lisence_sum2 .month {}
+.about .content_wrap .my_info1 .lisence .lisence_sum2 .summary{}
+/* -----------------라이센스 종료 */
+/*--------------------------커리어 시작 */
+.about .content_wrap .my_info1 {}
+.about .content_wrap .my_info1 .career {}
+.about .content_wrap .my_info1 .career .title {margin-bottom:20px;}
+.about .content_wrap .my_info1 .career .title img{margin-right:10px;}
+.about .content_wrap .my_info1 .career .title span{}
+.about .content_wrap .my_info1 .career .career_sum1 {
+    display:flex; flex-flow:row nowrap; gap:10px;
+    margin-bottom:25px;
+}
+.about .content_wrap .my_info1 .career .career_sum1 .month, .summary {
+    font-size:20px; font-family:pretendard, sans-serif; font-weight:200;
+}
+.about .content_wrap .my_info1 .career .career_sum1 .month {margin-right:24px;}
+.about .content_wrap .my_info1 .career .career_sum1 .summary{}
+.about .content_wrap .my_info1 .career .career_sum2 {
+    display:flex; flex-flow:row nowrap; gap:10px;
+    margin-bottom:25px;
+}
+.about .content_wrap .my_info1 .career .career_sum2 .month, .summary {
+    font-size:20px; font-family:pretendard, sans-serif; font-weight:200;
+}
+.about .content_wrap .my_info1 .career .career_sum2 .month {margin-right:24px;}
+.about .content_wrap .my_info1 .career .career_sum2 .summary{}
+.about .content_wrap .my_info1 .career .career_sum3 {
+    display:flex; flex-flow:row nowrap; gap:10px;
+    margin-bottom:25px;
+}
+.about .content_wrap .my_info1 .career .career_sum3 .month, .summary {
+    font-size:20px; font-family:pretendard, sans-serif; font-weight:200;
+}
+.about .content_wrap .my_info1 .career .career_sum3 .month {margin-right:24px;}
+.about .content_wrap .my_info1 .career .career_sum3 .summary{}
+/* -----------------커리어 종료 */
+/* -------------툴 시작 */
+.about .content_wrap .my_info1 .tools {}
+.about .content_wrap .my_info1 .tools .title {}
+.about .content_wrap .my_info1 .tools .title img {margin-right:10px;}
+.about .content_wrap .my_info1 .tools .title span {}
+.about .content_wrap .my_info1 .tools .tools_top {}
+.about .content_wrap .my_info1 .tools .tools_top p  {}
+.about .content_wrap .my_info1 .tools .tools_top p img {}
+.about .content_wrap .my_info1 .tools .tools_bottom p  {}
+.about .content_wrap .my_info1 .tools .tools_bottom p img {}
+
+.about .content_wrap .my_info1 .lisence .title span,.about .content_wrap .my_info1 .career .title span, .about .content_wrap .my_info1 .tools .title span{
+    font-family:'Abhaya Libre',serif ; font-size:28px; font-weight:400;
 }
