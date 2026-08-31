@@ -10,3 +10,18 @@ document.querySelectorAll('.contents').forEach(link => {
     swiper.slideTo(parseInt(slideIndex));
     });
 });
+const toTopBtn = document.getElementById('toTopBtn');
+
+// 첫 슬라이드(hero, index 0)가 아닐 때만 버튼 보이기
+swiper.on('slideChange', function () {
+    if (swiper.activeIndex === 0) {
+        toTopBtn.classList.remove('show');
+    } else {
+        toTopBtn.classList.add('show');
+    }
+});
+
+// 클릭하면 첫 슬라이드로 이동
+toTopBtn.addEventListener('click', function () {
+    swiper.slideTo(0);
+});
