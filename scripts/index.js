@@ -4,24 +4,18 @@ const swiper = new Swiper('.every_wrap', {
     mousewheel : true,
     speed: 600,
 });
-document.querySelectorAll('.contents').forEach(link => {
-    link.addEventListener('click', function(e) {
-    const slideIndex = this.getAttribute('data-slide'); // this = .contents 링크
-    swiper.slideTo(parseInt(slideIndex));
-    });
-});
-const toTopBtn = document.getElementById('toTopBtn');
 
-// 첫 슬라이드(hero, index 0)가 아닐 때만 버튼 보이기
-swiper.on('slideChange', function () {
-    if (swiper.activeIndex === 0) {
-        toTopBtn.classList.remove('show');
-    } else {
-        toTopBtn.classList.add('show');
+const imgswiper = new Swiper('.img_g', {
+    direction: 'horizontal',
+    slidesPerView: 4,
+    simulateTouch: true,   // 마우스로 터치처럼 드래그 (기본값 true)
+    grabCursor: true,      // 드래그 시 커서가 손 모양으로 바뀜 (UX용)
+    allowTouchMove: true, 
+    speed: 4000 ,
+    spaceBetween:40,
+    loop: true,           // 무한 반복하려면 필수
+    autoplay: {
+        delay: 1,               // 2초마다 다음 슬라이드로
+        disableOnInteraction: false,
     }
-});
-
-// 클릭하면 첫 슬라이드로 이동
-toTopBtn.addEventListener('click', function () {
-    swiper.slideTo(0);
 });
