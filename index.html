@@ -21,27 +21,24 @@
     <button class="to-top-btn" id="toTopBtn">↑</button>
     <div class="swiper every_wrap">
         <div class="swiper-wrapper main_wrap">
-            <div class="swiper-slide hero">
+            <div class="swiper-slide hero" data-slide="0">
+                <video src="./images/bgvideo.mp4" autoplay muted loop></video>
                 <div class="top">
                     <div class="title_nav_wrap">
                         <h2>2026 Do hyeon Portfolio</h2>
-                        <ul class="navigation">
-                            <li>
-                                <a href="#" class="active">
-                                    <span>HOME</span>
-                                </a>
-                            </li>
+<!--                         <ul class="navigation">
+                            <li><a href="#">HOME</a></li>
                             <li><a href="#">ABOUT</a></li>
                             <li><a href="#">PROJECT</a></li>
                             <li><a href="#">CONTACT</a></li>
-                        </ul>
+                        </ul> -->
                     </div>
+                </div>
+                <div class="bottom">
                     <div class="job">
                         <p class="uiux">UIUX DESIGN</p>
                         <p class="publishing">WEB PUBLISHING</p>
                     </div>
-                </div>
-                <div class="bottom">
                     <div class="slogan_title">
                         <div class="slogan">
                             <p class="first"><em>도</em>전을 두려워하지 않고</p>
@@ -49,17 +46,16 @@
                         </div>
                         <h1>디자이너 <em>김도현</em>입니다.</h1>
                     </div>
-                    <div class="interaction">
-                        <p class="next"><a href="#">Next Page</a></p>
-                        <p class="image"><img src="./images/mouse.png" alt="마우스 스크롤링"></p>
-                        <div class="qr_wrap">
-                            <p class="contact_ani"><img src="./images/let's.png" alt=""></p>
-                            <p class="kakao"><img src="./images/qrcode.png" alt=""></p>
-                        </div>
+                </div>
+                <div class="interaction">
+                    <p class="image"><img src="./images/mouse.png" alt="마우스 스크롤링"></p>
+                    <div class="qr_wrap">
+                        <p class="contact_ani"><img src="./images/let's.png" alt=""></p>
+                        <p class="kakao"><img src="./images/qrcode.png" alt=""></p>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide about">
+            <div class="swiper-slide about" data-slide="1">
                 <h3>About Me</h3>
                 <div class="content_wrap">
                     <div class="my_info">
@@ -189,7 +185,7 @@
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide project">
+            <div class="swiper-slide project" data-slide="2">
                 <div class="project_btn_group">
                     <a href="#" class="contents" data-slide="3">
                         <div class="title_project">
@@ -381,7 +377,7 @@ isi veniam occaecat sunt ut excepteur.
                     <a href="#" class="github">Github</a>
                 </div>
             </div>
-            <div class="swiper-slide graphic_design">
+            <div class="swiper-slide graphic_design" data-slide="7">
                 <h3>Graphic Design</h3>
                 <div class="swiper img_g">
                     <div class="swiper-wrapper img_wrap">
@@ -399,8 +395,9 @@ isi veniam occaecat sunt ut excepteur.
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide contact">
+            <div class="swiper-slide contact" data-slide="8">
                 <div class="contact_wrap">
+                    <video src="./images/bgvideo2.mp4" autoplay muted loop></video>
                     <p class="qrcode"><img src="./images/qrcode.png" alt=""></p>
                     <div class="my_info">
                         <p class="name">김도현</p>
@@ -415,5 +412,18 @@ isi veniam occaecat sunt ut excepteur.
             </div>
         </div>
     </div>
+    <div class="cta-menu">
+    <button class="cta-toggle" aria-expanded="false" aria-label="메뉴 열기">
+        <span class="cta-toggle-line"></span>
+        <span class="cta-toggle-line"></span>
+    </button>
+    <ul class="cta-list">
+        <li><a href="#" data-slide-target="0">HOME</a></li>
+        <li><a href="#" data-slide-target="1">ABOUT</a></li>
+        <li><a href="#" data-slide-target="2">PROJECT</a></li>
+        <li><a href="#" data-slide-target="7">GRAPHIC</a></li>
+        <li><a href="#" data-slide-target="8">CONTACT</a></li>
+    </ul>
+</div>
 </body>
 </html>
