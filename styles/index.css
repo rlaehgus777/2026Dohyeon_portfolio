@@ -44,10 +44,12 @@ body * {color:#fff;}
     width:100%; height:100%; position:relative;
     padding:0px 100px;
     display:flex; flex-flow:column nowrap; gap:199px;
+    justify-content: center;
+    background-color:#000;
 }
 .every_wrap .main_wrap .hero > video {
-    position:absolute; top:0; left:0;
-    z-index:-1;
+    position:absolute; top:-60px; left:0;
+    z-index:-1; transform:scale(0.8);
 }
 .every_wrap .main_wrap .hero::after {
     display:block; content:''; position:absolute;
