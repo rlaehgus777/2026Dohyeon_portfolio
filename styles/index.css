@@ -350,7 +350,7 @@ body * {color:#fff;}
     width:100%; height:100%; transition:opacity 1s;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(1){
-    background-image:url(../images/project1.jpg);
+    background-image:url(../images/esteeproject.jpg);
     background-size:cover; background-position:center;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(2){
@@ -375,11 +375,12 @@ body * {color:#fff;}
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project p {
     font-size:2.5rem; font-weight:semibold;
 }
+.every_wrap .main_wrap .project .project_btn_group .contents:nth-child(1) .title_project p {font-family:'Optima',serif;}
 /* -------------------------------------프로젝트 소개 끝 */
 
 /* -------------------단독 프로젝트 시작 */
 .every_wrap .main_wrap .project1 {
-    background-image:url(../images/project1.jpg);
+    background-image:url(../images/esteeproject.jpg);
     background-size:cover;
     padding:60px 100px;
 }
@@ -398,10 +399,10 @@ body * {color:#fff;}
     margin-bottom:70px;
 }
 .every_wrap .main_wrap .project1 .title_sum h1 {
-    font-size:4.5rem; font-weight:bold; margin-bottom:10px;
+    font-size:3.25rem; margin-bottom:10px; font-family:'Optima',serif; margin-bottom:30px;
 }
 .every_wrap .main_wrap .project1 .title_sum p {
-    font-size:1.75rem; font-weight:500; line-height:1.4;
+    font-size:1rem; font-weight:500; line-height:1.8;
     color:#888;
 }
 
@@ -441,7 +442,7 @@ body * {color:#fff;}
     font-size:1rem; color:#888;
 }
 .every_wrap .main_wrap .project1 .made_info .third p {
-    font-size:1rem;
+    font-size:1rem; line-height:1.8;
 }
 
 
@@ -452,12 +453,12 @@ body * {color:#fff;}
     font-size:1rem; color:#888;
 }
 .every_wrap .main_wrap .project1 .made_info .fourth .icon {
-    display:flex; flex-flow:row nowrap; gap:12px;
+    display:flex; flex-flow:row nowrap; gap:15px;
 }
 .every_wrap .main_wrap .project1 .made_info .fourth .icon img {
     width:36px; height:36px;
 }
-
+.every_wrap .main_wrap .project1 .made_info .fourth .icon img:nth-child(6) {width:38px; height:38px;}
 .every_wrap .main_wrap .project1 .bottom_btn {
     display:flex; gap:20px;
 }
@@ -561,7 +562,7 @@ body * {color:#fff;}
     display:flex; flex-flow:row nowrap; gap:12px;
 }
 .every_wrap .main_wrap .project2 .made_info .fourth .icon img {
-    width:36px; height:36px;
+    width:36px; height:36px; 
 }
 
 .every_wrap .main_wrap .project2 .bottom_btn {
