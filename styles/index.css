@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&display=swap');
+html,body{min-width:1280px;}
 html {
     scroll-behavior: smooth;
 }
 * {box-sizing:border-box;}
 body {
-    max-width:1920px;
+    max-width:1920px; 
     margin:0 auto;
 }
 body * {color:#fff;}
@@ -486,7 +487,7 @@ body * {color:#fff;}
 }
 
 .every_wrap .main_wrap .project1 .bottom_btn .plan {}
-.every_wrap .main_wrap .project1 .bottom_btn .proto {}
+.every_wrap .main_wrap .project1 .bottom_btn .proto {width:150px;}
 .every_wrap .main_wrap .project1 .bottom_btn .github {width:150px;}
 
 /* -----------------------프로젝트 1번 종료 */
@@ -963,4 +964,8 @@ body * {color:#fff;}
     text-decoration: none;
     font-size: 0.95rem;
     white-space: nowrap;
+}
+
+@media screen and (max-width:1820px){
+    .about .content_wrap .my_info2 {margin-right:80px;}
 }
