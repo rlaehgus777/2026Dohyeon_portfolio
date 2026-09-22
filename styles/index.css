@@ -183,10 +183,11 @@ body * {color:#fff;}
 .about .content_wrap .my_info .info_wrap .name {
     display:flex;
 }
+.about .content_wrap .my_info .info_wrap .name p {}
 .about .content_wrap .my_info .info_wrap .name p em {
     font-size:0.875rem; margin-left:10px;
 }
-.about .content_wrap .my_info .info_wrap .name p:nth-child(1) {}
+.about .content_wrap .my_info .info_wrap .name p:nth-child(1) {font-size:1rem;}
 .about .content_wrap .my_info .info_wrap .birthday  {
     display:flex;
 }
@@ -201,42 +202,42 @@ body * {color:#fff;}
 .about .content_wrap .my_info .info_wrap .email p {}
 .about .content_wrap .my_info .info_wrap .name p:nth-child(1),.about .content_wrap .my_info .info_wrap .birthday p:nth-child(1),
 .about .content_wrap .my_info .info_wrap .phonenumber p:nth-child(1),.about .content_wrap .my_info .info_wrap .email p:nth-child(1){
-    font-size:20px; color:#888; font-weight:600; width:80px;
+    font-size:1rem; color:#888; font-weight:500; width:80px;
 }
 .about .content_wrap .my_info .info_wrap .name p:nth-child(2),.about .content_wrap .my_info .info_wrap .birthday p:nth-child(2),
 .about .content_wrap .my_info .info_wrap .phonenumber p:nth-child(2),.about .content_wrap .my_info .info_wrap .email p:nth-child(2){
-    font-size:1.125rem; font-weight:600;
+    font-size:1rem; font-weight:500;
 }
 /* ------------------------------------김도현 정보 끝 */
 /* --------------커리어 정보 시작 */
 /* 라이센스 부분 */
-.about .content_wrap .my_info2 {margin-right:50px;}
-.about .content_wrap .my_info2 .lisence {margin-bottom:40px;}
+.about .content_wrap .my_info2 {margin-right:200px; display:flex; flex-flow:column nowrap; gap:40px;}
+.about .content_wrap .my_info2 .lisence {}
 .about .content_wrap .my_info2 .lisence .title {margin-bottom:20px;}
 .about .content_wrap .my_info2 .lisence .title img{margin-right:10px;}
 .about .content_wrap .my_info2 .lisence .title span{}
 .about .content_wrap .my_info2 .lisence .lisence_sum1 {
-    display:flex; flex-flow:row nowrap; gap:10px;
+    display:flex; flex-flow:row nowrap; gap:20px;
 }
 .about .content_wrap .my_info2 .lisence .lisence_sum1 .month {
     margin-bottom:25px;
 }
 .about .content_wrap .my_info2 .lisence .lisence_sum1 .month, .summary {
-    font-size:1.25rem; font-family:pretendard, sans-serif; font-weight:200;
+    font-size:1rem; font-family:pretendard, sans-serif; font-weight:200;
 }
-.about .content_wrap .my_info2 .lisence .lisence_sum1 .summary{}
+.about .content_wrap .my_info2 .lisence .lisence_sum1 .summary{font-size:1rem;}
 .about .content_wrap .my_info2 .lisence .lisence_sum2 {
-    display:flex; flex-flow:row nowrap; gap:10px;
+    display:flex; flex-flow:row nowrap; gap:20px;
 }
 .about .content_wrap .my_info2 .lisence .lisence_sum2 .month, .summary {
-    font-size:1.25rem; font-family:pretendard, sans-serif; font-weight:200;
+    font-size:1rem; font-family:pretendard, sans-serif; font-weight:200;
 }
 .about .content_wrap .my_info2 .lisence .lisence_sum2 .month {}
-.about .content_wrap .my_info2 .lisence .lisence_sum2 .summary{}
+.about .content_wrap .my_info2 .lisence .lisence_sum2 .summary{font-size:1rem;}
 /* -----------------라이센스 종료 */
 /*--------------------------커리어 시작 */
 .about .content_wrap .my_info2 {}
-.about .content_wrap .my_info2 .career {margin-bottom:36px;}
+.about .content_wrap .my_info2 .career {}
 .about .content_wrap .my_info2 .career * {white-space:nowrap;}
 .about .content_wrap .my_info2 .career .title {margin-bottom:20px;}
 .about .content_wrap .my_info2 .career .title img{margin-right:10px;}
@@ -246,19 +247,19 @@ body * {color:#fff;}
     margin-bottom:25px;
 }
 .about .content_wrap .my_info2 .career .career_sum1 .month, .summary {
-    font-size:1.25rem; font-family:pretendard, sans-serif; font-weight:200;
+    font-size:1rem; font-family:pretendard, sans-serif; font-weight:200;
 }
 .about .content_wrap .my_info2 .career .career_sum1 .month {margin-right:24px;}
-.about .content_wrap .my_info2 .career .career_sum1 .summary{}
+.about .content_wrap .my_info2 .career .career_sum1 .summary{font-size:1rem;}
 .about .content_wrap .my_info2 .career .career_sum2 {
     display:flex; flex-flow:row nowrap; gap:10px;
     margin-bottom:25px;
 }
 .about .content_wrap .my_info2 .career .career_sum2 .month, .summary {
-    font-size:1.25rem; font-family:pretendard, sans-serif; font-weight:200;
+    font-size:1rem; font-family:pretendard, sans-serif; font-weight:200;
 }
 .about .content_wrap .my_info2 .career .career_sum2 .month {margin-right:24px;}
-.about .content_wrap .my_info2 .career .career_sum2 .summary{}
+.about .content_wrap .my_info2 .career .career_sum2 .summary{font-size:1rem;}
 .about .content_wrap .my_info2 .career .career_sum3 {
     display:flex; flex-flow:row nowrap; gap:10px;
     margin-bottom:25px;
@@ -266,8 +267,8 @@ body * {color:#fff;}
 .about .content_wrap .my_info2 .career .career_sum3 .month, .summary {
     font-size:1.25rem; font-family:pretendard, sans-serif; font-weight:200;
 }
-.about .content_wrap .my_info2 .career .career_sum3 .month {margin-right:24px;}
-.about .content_wrap .my_info2 .career .career_sum3 .summary{}
+.about .content_wrap .my_info2 .career .career_sum3 .month {margin-right:24px;font-size:1rem;}
+.about .content_wrap .my_info2 .career .career_sum3 .summary{font-size:1rem;}
 /* -----------------커리어 종료 */
 /* -------------툴 시작 */
 .about .content_wrap .my_info2 .tools {}
@@ -298,23 +299,23 @@ body * {color:#fff;}
 .about .content_wrap .my_info3 .education .title span {
     font-size:1.75rem; font-family:'Abhaya Libre',serif; margin-left:10px;
 }
-.about .content_wrap .my_info3 .education .education_sum1 {display:flex; gap:10px; margin-bottom:25px;}
+.about .content_wrap .my_info3 .education .education_sum1 {display:flex; gap:30px; margin-bottom:25px;}
 .about .content_wrap .my_info3 .education .education_sum1 .month {
-    font-size:1.25rem; font-family:pretendard,sans-serif; font-weight:200;
+    font-size:1rem; font-family:'pretendard',sans-serif; font-weight:200; width:150px;
 }
-.about .content_wrap .my_info3 .education .education_sum1 .summary {}
-.about .content_wrap .my_info3 .education .education_sum2 {display:flex; gap:10px; margin-bottom:25px;}
-.about .content_wrap .my_info3 .education .education_sum2 .month {font-size:1.25rem; font-family:pretendard,sans-serif; font-weight:200;}
-.about .content_wrap .my_info3 .education .education_sum2 .summary {}
-.about .content_wrap .my_info3 .education .education_sum3 {display:flex; gap:10px; margin-bottom:25px;}
-.about .content_wrap .my_info3 .education .education_sum3 .month {font-size:1.25rem; font-family:pretendard,sans-serif; font-weight:200;}
-.about .content_wrap .my_info3 .education .education_sum3 .summary {}
-.about .content_wrap .my_info3 .education .education_sum4 {display:flex; gap:10px; white-space: nowrap; margin-bottom:25px;}
-.about .content_wrap .my_info3 .education .education_sum4 .month {font-size:1.25rem; font-family:pretendard,sans-serif; font-weight:200;}
-.about .content_wrap .my_info3 .education .education_sum4 .summary {}
-.about .content_wrap .my_info3 .education .education_sum5 {display:flex; gap:10px; white-space: nowrap; margin-bottom:25px;}
-.about .content_wrap .my_info3 .education .education_sum5 .month {font-size:1.25rem; font-family:pretendard,sans-serif; font-weight:200;}
-.about .content_wrap .my_info3 .education .education_sum5 .summary {}
+.about .content_wrap .my_info3 .education .education_sum1 .summary {font-size:1rem;}
+.about .content_wrap .my_info3 .education .education_sum2 {display:flex; gap:30px; margin-bottom:25px;}
+.about .content_wrap .my_info3 .education .education_sum2 .month {font-size:1rem; font-family:pretendard,sans-serif; font-weight:200; width:150px;}
+.about .content_wrap .my_info3 .education .education_sum2 .summary {font-size:1rem;}
+.about .content_wrap .my_info3 .education .education_sum3 {display:flex; gap:30px; margin-bottom:25px;}
+.about .content_wrap .my_info3 .education .education_sum3 .month {font-size:1rem; font-family:pretendard,sans-serif; font-weight:200; width:150px;}
+.about .content_wrap .my_info3 .education .education_sum3 .summary {font-size:1rem;}
+.about .content_wrap .my_info3 .education .education_sum4 {display:flex; gap:30px; white-space: nowrap; margin-bottom:25px;}
+.about .content_wrap .my_info3 .education .education_sum4 .month {font-size:1rem; font-family:pretendard,sans-serif; font-weight:200; width:150px;}
+.about .content_wrap .my_info3 .education .education_sum4 .summary {font-size:1rem;}
+.about .content_wrap .my_info3 .education .education_sum5 {display:flex; gap:30px; white-space: nowrap; margin-bottom:25px;}
+.about .content_wrap .my_info3 .education .education_sum5 .month {font-size:1rem; font-family:pretendard,sans-serif; font-weight:200; width:150px;}
+.about .content_wrap .my_info3 .education .education_sum5 .summary {font-size:1rem;}
 /* --------------my keyword 시작 */
 .about .content_wrap .my_info3 .mykeyword {}
 .about .content_wrap .my_info3 .mykeyword .title {margin-bottom:16px;}
@@ -325,26 +326,26 @@ body * {color:#fff;}
 .about .content_wrap .my_info3 .mykeyword .keyword .top p {
     padding:8px 20px; border:1px solid #888; border-radius:40px;
 }
-.about .content_wrap .my_info3 .mykeyword .keyword .top p span {}
+.about .content_wrap .my_info3 .mykeyword .keyword .top p span {font-size:0.875rem;}
 .about .content_wrap .my_info3 .mykeyword .keyword .middle {display:flex; gap:16px;}
 .about .content_wrap .my_info3 .mykeyword .keyword .middle p {padding:8px 20px; border:1px solid #888; border-radius:40px;}
-.about .content_wrap .my_info3 .mykeyword .keyword .middle p span {}
+.about .content_wrap .my_info3 .mykeyword .keyword .middle p span {font-size:0.875rem;}
 .about .content_wrap .my_info3 .mykeyword .keyword .bottom {display:flex; gap:16px;}
 .about .content_wrap .my_info3 .mykeyword .keyword .bottom p {padding:8px 20px; border:1px solid #888; border-radius:40px;}
-.about .content_wrap .my_info3 .mykeyword .keyword .bottom p span {}
+.about .content_wrap .my_info3 .mykeyword .keyword .bottom p span {font-size:0.875rem;}
 /* ---------------------프로젝트 버튼 시작 */
 .every_wrap .main_wrap .project {}
 .every_wrap .main_wrap .project .project_btn_group {
     display:flex; height:100%;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents {
-    flex:1; height:100%; position:relative; transition:flex 1s;
+    flex:1; height:100%; position:relative; transition:flex 1s; 
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:hover{
     flex:1.5;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:hover::after {
-    opacity:0;
+    opacity:0; 
 }
 .every_wrap .main_wrap .project .project_btn_group .contents::after{
     display:block; content:''; background-color:rgba(0,0,0,0.4);
@@ -372,13 +373,17 @@ body * {color:#fff;}
     position:absolute; left:38px; bottom:60px; z-index:200;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project h2 {
-    font-family:'Abhaya Libre','serif'; font-size:2.5rem; margin-bottom:10px;
+    font-family:'Abhaya Libre','serif'; font-size:1.75rem; margin-bottom:10px;
+    position:absolute; top:-750px; left:0;
 
 }
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project p {
     font-size:2.5rem; font-weight:semibold;
 }
-.every_wrap .main_wrap .project .project_btn_group .contents:nth-child(1) .title_project p {font-family:'Optima',serif;}
+.every_wrap .main_wrap .project .project_btn_group .contents .title_project p:nth-child(3){
+    font-size:1rem; margin-top:10px;
+}
+.every_wrap .main_wrap .project .project_btn_group .contents:nth-child(1) .title_project p {}
 /* -------------------------------------프로젝트 소개 끝 */
 
 /* -------------------단독 프로젝트 시작 */
@@ -401,12 +406,11 @@ body * {color:#fff;}
 .every_wrap .main_wrap .project1 .title_sum {
     margin-bottom:70px;
 }
-.every_wrap .main_wrap .project1 .title_sum h1 {
-    font-size:3.25rem; margin-bottom:10px; font-family:'Optima',serif; margin-bottom:30px;
-}
+.every_wrap .main_wrap .project1 .title_sum h1 {margin-bottom:30px; width:300px;}
+.every_wrap .main_wrap .project1 .title_sum h1 img {width:100%;}
 .every_wrap .main_wrap .project1 .title_sum p {
     font-size:1rem; font-weight:500; line-height:1.8;
-    color:#888;
+    color:#ccc;
 }
 
 
@@ -445,12 +449,12 @@ body * {color:#fff;}
     font-size:1rem; color:#888;
 }
 .every_wrap .main_wrap .project1 .made_info .third p {
-    font-size:1rem; line-height:1.8;
+    font-size:1rem;
 }
 
 
 .every_wrap .main_wrap .project1 .made_info .fourth {
-    display:flex; gap:70px; align-items: center;
+    display:flex; gap:70px; align-items: center; margin-bottom:20px;
 }
 .every_wrap .main_wrap .project1 .made_info .fourth span {
     font-size:1rem; color:#888;
@@ -483,13 +487,13 @@ body * {color:#fff;}
 
 .every_wrap .main_wrap .project1 .bottom_btn .plan {}
 .every_wrap .main_wrap .project1 .bottom_btn .proto {}
-.every_wrap .main_wrap .project1 .bottom_btn .github {}
+.every_wrap .main_wrap .project1 .bottom_btn .github {width:150px;}
 
 /* -----------------------프로젝트 1번 종료 */
 
 /* ----------------------프로젝트 2번 시작 */
 .every_wrap .main_wrap .project2 {
-    background-image:url(../images/callaway_project.png);
+    background-image:url(../images/callaway_project.jpg);
     background-size:cover;
     padding:60px 100px;
 }
@@ -502,17 +506,16 @@ body * {color:#fff;}
     font-family:'Abhaya Libre',serif; font-size:2.5rem;
     margin-bottom:70px;
 }
+.every_wrap .main_wrap .project2 h2 img
 
-
-.every_wrap .main_wrap .project2 .title_sum {
-    margin-bottom:70px;
+.every_wrap .main_wrap .project2 .title_sum{
+    margin-bottom:70px; 
 }
-.every_wrap .main_wrap .project2 .title_sum h1 {
-    font-size:4.5rem; font-weight:bold; margin-bottom:10px;
-}
+.every_wrap .main_wrap .project2 .title_sum h1 {margin-bottom:30px; width:300px; height:110px;}
+.every_wrap .main_wrap .project2 .title_sum h1 img {width:100%; height:100%; object-fit: cover;}
 .every_wrap .main_wrap .project2 .title_sum p {
-    font-size:1.75rem; font-weight:500; line-height:1.4;
-    color:#888;
+    font-size:1rem; font-weight:500; line-height:1.8;
+    color:#ccc; margin-bottom:70px;
 }
 
 
@@ -589,7 +592,7 @@ body * {color:#fff;}
 
 .every_wrap .main_wrap .project2 .bottom_btn .plan {}
 .every_wrap .main_wrap .project2 .bottom_btn .proto {}
-.every_wrap .main_wrap .project2 .bottom_btn .github {}
+.every_wrap .main_wrap .project2 .bottom_btn .github {width:150px;}
 
 /* ---------------------------------------프로젝트 3번시작 */
 .every_wrap .main_wrap .project3 {
@@ -611,12 +614,11 @@ body * {color:#fff;}
 .every_wrap .main_wrap .project3 .title_sum {
     margin-bottom:70px;
 }
-.every_wrap .main_wrap .project3 .title_sum h1 {
-    font-size:4.5rem; font-weight:bold; margin-bottom:10px;
-}
+.every_wrap .main_wrap .project3 .title_sum h1 {width:300px; height:110px; margin-bottom:30px;}
+.every_wrap .main_wrap .project3 .title_sum h1 img {width:100%;}
 .every_wrap .main_wrap .project3 .title_sum p {
-    font-size:1.75rem; font-weight:500; line-height:1.4;
-    color:#888;
+    font-size:1rem; font-weight:500; line-height:1.8;
+    color:#ccc;
 }
 
 
