@@ -37,3 +37,11 @@ document.querySelector('.cta-list').addEventListener('click', (e) => {
     const targetIndex = parseInt(link.dataset.slideTarget, 10);
     swiper.slideTo(targetIndex);
 });
+document.querySelector('.project_btn_group').addEventListener('click', (e) => {
+    const link = e.target.closest('a[data-slide]');
+    if (!link) return;
+
+    e.preventDefault();
+    const targetIndex = parseInt(link.dataset.slide, 10);
+    swiper.slideTo(targetIndex);
+});

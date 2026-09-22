@@ -352,26 +352,27 @@ body * {color:#fff;}
     width:100%; height:100%; transition:opacity 1s;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(1){
-    background-image:url(../images/esteeproject.jpg);
+    background-image:url(../images/estee_project.png);
     background-size:cover; background-position:center;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(2){
-    background-image:url(../images/project2.jpg);
-    background-size:cover; background-position:center;
+    background-image:url(../images/callaway_project.png);
+    background-size:cover; background-position-x:-150px;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(3){
-    background-image:url(../images/project3.jpg);
-    background-size:cover; background-position:center;
+    background-image:url(../images/sealife_project.jpg);
+    background-size:cover; background-position-x:-900px;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents:nth-child(4){
-    background-image:url(../images/project4.jpg);
-    background-size:cover; background-position:center;
+    background-image:url(../images/combach_project.jpg);
+    background-repeat:no-repeat;
+    background-size:cover; background-position-x:-720px;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project {
     position:absolute; left:38px; bottom:60px; z-index:200;
 }
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project h2 {
-    font-family:'Abhaya Libre','serif'; font-size:2.5rem;
+    font-family:'Abhaya Libre','serif'; font-size:2.5rem; margin-bottom:10px;
 
 }
 .every_wrap .main_wrap .project .project_btn_group .contents .title_project p {
@@ -382,8 +383,8 @@ body * {color:#fff;}
 
 /* -------------------단독 프로젝트 시작 */
 .every_wrap .main_wrap .project1 {
-    background-image:url(../images/esteeproject.jpg);
-    background-size:cover;
+    background-image:url(../images/estee_project.png);
+    background-size:cover; background-position-y:-32px;
     padding:60px 100px;
 }
 .every_wrap .main_wrap .project1::after {
@@ -488,7 +489,7 @@ body * {color:#fff;}
 
 /* ----------------------프로젝트 2번 시작 */
 .every_wrap .main_wrap .project2 {
-    background-image:url(../images/project2.jpg);
+    background-image:url(../images/callaway_project.png);
     background-size:cover;
     padding:60px 100px;
 }
@@ -592,7 +593,7 @@ body * {color:#fff;}
 
 /* ---------------------------------------프로젝트 3번시작 */
 .every_wrap .main_wrap .project3 {
-    background-image:url(../images/project3.jpg);
+    background-image:url(../images/sealife_project.jpg);
     background-size:cover;
     padding:60px 100px;
 }
@@ -696,7 +697,7 @@ body * {color:#fff;}
 /* ---------------------------------------프로젝트 4번시작 */
 
 .every_wrap .main_wrap .project4 {
-    background-image:url(../images/project4.jpg);
+    background-image:url(../images/combach_project.jpg);
     background-size:cover;
     padding:60px 100px;
 }
