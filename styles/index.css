@@ -719,14 +719,13 @@ body * {color:#fff;}
     margin-bottom:70px;
 }
 .every_wrap .main_wrap .project4 .title_sum h1 {
-    font-size:4.5rem; font-weight:bold; margin-bottom:10px;
+    font-size:4rem; font-weight:bold; margin-bottom:10px;
 }
 .every_wrap .main_wrap .project4 .title_sum p {
-    font-size:1.75rem; font-weight:500; line-height:1.4;
-    color:#888;
+    font-size:1rem; font-weight:500; line-height:1.8;
+    color:#ccc; position:relative;
 }
-
-
+.every_wrap .main_wrap .project4 .title_sum p em{font-weight:600}
 .every_wrap .main_wrap .project4 .made_info {
     display:flex; flex-direction:column; gap:24px;
     margin-bottom:30px;
