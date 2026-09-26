@@ -113,6 +113,7 @@ body * {color:#fff;}
     font-weight:bold;
     animation:titleMove 0.5s linear;
 }
+
 .every_wrap .main_wrap .hero .bottom .slogan_title p {
     text-align:center; color:#bbb;
 }
