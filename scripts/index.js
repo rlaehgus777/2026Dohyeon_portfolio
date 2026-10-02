@@ -7,12 +7,12 @@ const swiper = new Swiper('.every_wrap', {
 
 const imgswiper = new Swiper('.img_g', {
     direction: 'horizontal',
-    slidesPerView: 4,
+    slidesPerView: 'auto',
     simulateTouch: true,   
     grabCursor: true,      
     allowTouchMove: true, 
     speed: 5000 ,
-    spaceBetween:15,
+    spaceBetween:30,
     loop: true,           
     autoplay: {
         delay: 1,              
