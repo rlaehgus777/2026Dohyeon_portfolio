@@ -70,3 +70,4 @@ imageModal.addEventListener('click', (e) => {
 document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeModal();
 });
+imageModal.querySelector('.modal-close').addEventListener('click', closeModal);

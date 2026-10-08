@@ -17,6 +17,16 @@ body * {color:#fff;}
     opacity: 0; visibility: hidden;
     transition: opacity 0.3s, visibility 0.3s;
 }
+.image-modal .modal-close {
+    position: fixed;
+    top: 30px; right: 40px;
+    width: 60px; height: 60px;
+    border-radius: 50%;
+    background-color: #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 2100;
+}
 .image-modal.open {
     opacity: 1; visibility: visible;
 }
