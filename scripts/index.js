@@ -45,3 +45,28 @@ document.querySelector('.project_btn_group').addEventListener('click', (e) => {
     const targetIndex = parseInt(link.dataset.slide, 10);
     swiper.slideTo(targetIndex);
 });
+const imageModal = document.getElementById('imageModal');
+const modalImg = imageModal.querySelector('img');
+
+document.querySelector('.other_design_wrap').addEventListener('click', (e) => {
+    const btn = e.target.closest('button');
+    if (!btn) return;
+
+    modalImg.src = btn.querySelector('img').src;
+    imageModal.scrollTop = 0;
+    imageModal.classList.add('open');
+    imageModal.setAttribute('aria-hidden', 'false');
+});
+
+function closeModal() {
+    imageModal.classList.remove('open');
+    imageModal.setAttribute('aria-hidden', 'true');
+}
+
+imageModal.addEventListener('click', (e) => {
+    if (e.target === imageModal) closeModal();
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+});
